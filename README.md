@@ -30,13 +30,13 @@ As part of data cleaning, the following steps are performed:
 
 ## Exploratory Data Analysis (EDA)
 1. Top 10 countries with highest spending:
-![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/c45940a7-d25c-4c4a-bf11-450e743feccc)
+  ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/c45940a7-d25c-4c4a-bf11-450e743feccc)
 
 2. Purchase trend over time:
-![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/0c2fa99d-3cbd-4906-af8e-4be2235c9222)
+  ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/0c2fa99d-3cbd-4906-af8e-4be2235c9222)
 
 3. Top 10 most purchased items:
-![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/cc661250-7c09-4940-b3f8-8642a185d077)
+  ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/cc661250-7c09-4940-b3f8-8642a185d077)
 
 ## Data Preprocessing and Dimensionality Reduction using Principal Component Analysis (PCA):
 As part of data preprocessing:
@@ -53,33 +53,28 @@ Firstly, we get the optimal number of clusters using the K-Means Elbow Method. T
 ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/2c2c990c-5cf8-4da0-b7d8-61baf387eb77)
 
 1. K-Means Clustering:
-![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/7e5acce3-4683-4f2e-a1de-966e38e73bd8)
+  ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/7e5acce3-4683-4f2e-a1de-966e38e73bd8)
 
-2. Guassian Mixture Model (GMM):
-![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/2ebd284e-aace-4236-a1a9-7ee40306571a)
+2. Gaussian Mixture Model (GMM):
+  ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/2ebd284e-aace-4236-a1a9-7ee40306571a)
 
 3. K-Means Mini Batch Clustering:
-![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/afd30f17-5067-4462-ac67-2dc1bf25b4de)
+  ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/afd30f17-5067-4462-ac67-2dc1bf25b4de)
 
-## Model Evaluation:
-
-1. Model training with PCA:
+Model training with PCA:
 
 | Model | Silhouette Score |
+| ------------- | ------------- |
 | K-Means Clustering | 0.3887 |
 | Guassian Mixture Model | 0.389 |
 | K-Means Mini Batch Clustering | 0.3568 |
 
-2. Clustering using RFM Segmentation:
+## RFM Segmentation:
+1. K-Means Clustering:
+  ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/43f27c4e-9ab4-4541-8abc-98f718e628e0)
 
-| Model | Silhouette Score |
-| K-Means Clustering | 0.3887 |
-| Guassian Mixture Model | 0.389 |
-| K-Means Mini Batch Clustering | 0.3568 |
+2. Spectral Clustering:
+   ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/4f37e980-38b2-4304-8035-3b787e40d748)
 
-
-
-
-
-
-
+3. Gaussian Mixture Model:
+   ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/56d9e9f5-a3b1-4e56-b9d5-a80c0c7dc411)
