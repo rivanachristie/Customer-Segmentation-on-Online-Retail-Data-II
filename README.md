@@ -45,10 +45,40 @@ As part of data preprocessing:
 2. Then, we use StandardScaler() to scale the values and thus reduce outliers
 3. Finally, we use PCA to reduce the number of dimensions to 3
 
+![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/ce43d747-424f-4398-8e6d-6ab93b6bf8ad)
+
 ## Data Modeling:
 Firstly, we get the optimal number of clusters using the K-Means Elbow Method. Then, we use the clustering techniques to get the clusters of the users.
 
 ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/2c2c990c-5cf8-4da0-b7d8-61baf387eb77)
+
+1. K-Means Clustering:
+![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/7e5acce3-4683-4f2e-a1de-966e38e73bd8)
+
+2. Guassian Mixture Model (GMM):
+![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/2ebd284e-aace-4236-a1a9-7ee40306571a)
+
+3. K-Means Mini Batch Clustering:
+![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/afd30f17-5067-4462-ac67-2dc1bf25b4de)
+
+## Model Evaluation:
+
+1. Model training with PCA:
+
+| Model | Silhouette Score |
+| K-Means Clustering | 0.3887 |
+| Guassian Mixture Model | 0.389 |
+| K-Means Mini Batch Clustering | 0.3568 |
+
+2. Clustering using RFM Segmentation:
+
+| Model | Silhouette Score |
+| K-Means Clustering | 0.3887 |
+| Guassian Mixture Model | 0.389 |
+| K-Means Mini Batch Clustering | 0.3568 |
+
+
+
 
 
 
