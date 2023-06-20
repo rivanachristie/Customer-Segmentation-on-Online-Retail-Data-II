@@ -19,12 +19,37 @@ This Online Retail II data set contains all the transactions occurring for a UK-
 
 Link to dataset: https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
+## Data Cleaning:
+As part of data cleaning, the following steps are performed:
+
+1. Removing NA or null values
+2. Converting 'Description' column to lower case
+3. Converting 'InvoiceDate' to a datetime column
+4. Removing cancelled orders from the dataset
+5. Creating a 'TotalPrice' column
+
 ## Exploratory Data Analysis (EDA)
 1. Top 10 countries with highest spending:
 ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/c45940a7-d25c-4c4a-bf11-450e743feccc)
 
 2. Purchase trend over time:
 ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/0c2fa99d-3cbd-4906-af8e-4be2235c9222)
+
+3. Top 10 most purchased items:
+![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/cc661250-7c09-4940-b3f8-8642a185d077)
+
+## Data Preprocessing and Dimensionality Reduction using Principal Component Analysis (PCA):
+As part of data preprocessing:
+
+1. Firstly, we use the label encoder to encode the categorical columns into numerical values
+2. Then, we use StandardScaler() to scale the values and thus reduce outliers
+3. Finally, we use PCA to reduce the number of dimensions to 3
+
+## Data Modeling:
+Firstly, we get the optimal number of clusters using the K-Means Elbow Method. Then, we use the clustering techniques to get the clusters of the users.
+
+![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/2c2c990c-5cf8-4da0-b7d8-61baf387eb77)
+
 
 
 
