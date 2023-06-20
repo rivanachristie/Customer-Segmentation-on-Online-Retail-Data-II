@@ -70,6 +70,10 @@ Model training with PCA:
 | K-Means Mini Batch Clustering | 0.3568 |
 
 ## RFM Segmentation:
+RFM Segmentation RFM segmentation is mainly used for marketing products or content to users based on their habits of interaction with the system. Marketers can basically use this method to maximize impressions on their website such as high click-rate, frequent online orders, etc. 
+
+RFM stands for recency, frequency and monetary, each of which are traits exhibited by the users that interact with a particular website. In this section, we will derive the recency, frequency and monetary features based on the columns from the dataset. And then, we will use this transformed dataset to segment the users based on their spending habits.
+
 1. K-Means Clustering:
   ![image](https://github.com/rivanachristie/Customer-Segmentation-on-Online-Retail-Data-II/assets/98617715/43f27c4e-9ab4-4541-8abc-98f718e628e0)
 
